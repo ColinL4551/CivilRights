@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+  background-color: #ADD8E6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+h1 {
+    font-family: 'Monomakh', sans-serif;
+    position: absolute;
+    font-size: 4rem;
+    top:0;
+    margin-left: 5vw
+  margin-right:5vw;
+  margin-top:2vh;
+  margin-bottom: 1vh;
+}
+h2 {
+   position: absolute;
+    font-size: 1rem;
+    margin: 4vh; 
+}
+button {
+    font-family: 'Monomakh', sans-serif;
+    font-size: 2rem;
+    background-color: #3b3b3b;
+    width: 80%;
+    height: 60%;
+    color: #e8f4f8;
+    margin-left: 10%;
+    margin-right:10%;
+    border-radius: 8px;
+    border: 2px solid #555555;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10%;
+}
+
+
+.interview-container {
+  position: relative;
+  display: block;
+  width: 90vw;
+  height: 90vh; /* Fixed height */
+  margin-left: 5vw;
+  margin-right:5vw;
+  margin-top:1vh;
+  margin-bottom: 1vh;
+  background-color: #e8f4f8;
+  border-radius: 8px;
+  overflow: hidden; /* Hides anything overflowing the container */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  top:5.5rem;
+  /*top: 5vw;*/
+  
+}
+.interview {
+  position: absolute;
+  height: 100%;
+  max-height: 100%;
+  /* Ensures the height is bounded by the container */
+  overflow-y: auto; /* Enables vertical scrolling when needed */
+  padding: 3vw; /* Adds a small space for the scrollbar */
+}
+.interview strong {
+    line-height: 1.6;
+  font-weight: bold;
+}
+
+
+audio {
+    position: relative;
+    top: 1.5rem;
+    width:90vw;
+    height: 20vh;
+    min-height: 20px;
+    text-align: center;
+    margin: 5vw;
+    padding: 5vw;
+    width: 100%;
+    margin-top: 1vw;
+}
+
+
+.timeline-container {
+  display: block;
+  position: relative;
+  width: 90vw;
+  height: 75vh; /* Fixed height */
+  margin-left: 5vw
+  margin-right:5vw;
+  margin-top:1vh;
+  margin-bottom: 1vh;
+  background-color: #e8f4f8;
+  border-radius: 8px;
+  overflow: hidden; /* Hides anything overflowing the container */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  top: 5.5rem;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #333;
+  transform: translateX(-50%);
+}
+
+.timeline {
+  position: relative;
+  height: 100%;
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 3vw; /* Adds a small space for the scrollbar */
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+}
+
+.event.left {
+  flex-direction: row-reverse;
+}
+
+.event .event-content {
+  width: 45%;
+  padding: 15px;
+  background-color: #bababa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.event .event-date {
+    text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event .event-description {
+  font-size: 14px;
+}

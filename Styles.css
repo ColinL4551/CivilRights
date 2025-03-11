@@ -1,0 +1,68 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Roboto Slab", serif;
+            background-color: #ADD8E6;
+            display: flex;
+            flex-direction: column; /* Stack the elements vertically */
+            justify-content: flex-start; /* Align from top */
+            align-items: center;
+            height: auto; /* Let the height be dynamic based on content */
+            padding: 20px; /* Add some space around the content */
+        }
+
+        h1 {
+            font-family: 'Monomakh', sans-serif;
+            font-size: 4rem;
+            margin-top: 2vh; /* Add some margin at the top */
+            text-align: center; /* Center align the main heading */
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        
+            text-align: center; /* Center align the secondary headings */
+        }
+        h3{
+        margin-top: 1.5vh;   
+        }
+
+        ul {
+            margin-top: 1vh;
+            text-align: left; /* Align list items to the left */
+        }
+
+        p {
+            margin-top: 1vh;
+            text-align: center;
+            font-size: 1.1rem;
+    }
+    button {
+    font-family: 'Monomakh', sans-serif;
+    font-size: 2rem;
+    background-color: #3b3b3b;
+    width: 90vw;
+    height: 10vh;
+    color: #e8f4f8;
+    margin-left: 5vw;
+    margin-right:5vw;
+    border-radius: 8px;
+    border: 2px solid #555555;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5vh;
+    margin-top:2vh;
+}
+        .info {
+  position: relative;
+  width: 90vw;
+  margin-top: 2vh;
+  padding: 2.5vw;
+  background-color: #e8f4f8;
+  border-radius: 8px;
+  overflow: hidden; /* Hides anything overflowing the container */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
